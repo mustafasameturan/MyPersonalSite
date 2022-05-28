@@ -1,0 +1,239 @@
+/* navbar css codes */
+
+.logo{
+    height: 70px;
+}
+
+.line{
+    font-size: 20px;
+    margin: 0px 20px;
+    color: #fff;
+}
+
+.nav-bg{
+    background-color: rgba(150, 150, 150, 0.356);
+    
+}
+
+.header_area{
+    background-image: url('main-page-background.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.nav-item{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.nav-item a{
+    color:#fff;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.nav-item a:hover{
+    color: purple;
+}
+
+
+.logo2{
+    margin-top: 65px;
+}
+/* navbar css codes end*/
+
+/* services css codes */
+.view-projects{
+    height: 60px;
+}
+
+.quote{
+    color: blueviolet;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 30px;
+}
+
+.services{
+    background-color: #5e17eb;
+}
+
+.button{
+    border-radius: 12px;   
+    width: 20%; 
+    font-size: 30px;
+    height: 80px;
+}
+
+.button-text{
+    color: black;
+    text-decoration:none;
+}
+
+.view-projects-bg{
+    background-image: url('background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 20vh;
+}
+/* services css codes */
+
+/* scroll up css start */
+#up{
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background: rgba(34, 32, 32, 0.765);
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 30px;
+    transition: all .3s ease;
+    z-index: 999;
+}
+
+#up i{
+    color: white;
+    font-size: 20px;
+}
+
+#up:hover{
+    background: rgb(30, 13, 78);
+}
+/* scroll up css end */
+
+/* biography css start */
+.past-future{
+    padding-left: 220px;
+}
+
+.bio-text{
+    padding-left: 100px;
+    font-size: 16px;
+}
+/* biography css end */
+
+/* gallery css start */
+
+.galleery{
+    background-color: #5e17eb;
+}
+
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: right;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+}
+
+.gallery:hover {
+  border: 5px solid rgb(0, 0, 0);
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 2px;
+}
+
+.desc {
+  padding: 0px;
+  text-align: center;
+}
+/* gallery css end */
+
+/* contact-me css start */
+.contact-form-text{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.send-button{
+    font-size: 25px;
+}
+
+.send-button-place{
+    margin-left: 520px;
+}
+
+.map-place{
+    margin-left: 20px;
+}
+
+.contact-text-git{
+    margin-left: 8px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.contact-text-in{
+    margin-left: 2px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.contact-text-gmail{
+    margin-right:7px;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.contact-text-instagram{
+    margin-left:65px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.contact-mail-icon{
+    margin-left: 19px;
+}
+/* contact-me css end */
+
+/* footer css start */
+.footer{
+    background-color: #2c3e50;
+    height: 400px;
+    color: #95a5a6;
+}
+
+.footer-text{
+    font-size: 24px;
+}
+
+.footer-height{
+    height: 400px;
+}
+
+.footer-c{
+    font-size: 30px;
+}
+
+.footer-title{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.icon-color{
+    color: #95A5A6;
+}
+/* footer css end */
